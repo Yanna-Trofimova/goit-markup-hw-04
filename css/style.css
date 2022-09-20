@@ -159,6 +159,8 @@ h1,h2,h3,ul,p{
     
     display: flex;
     align-items: center;
+
+    color: #757575;
 }
 
 
@@ -169,7 +171,7 @@ h1,h2,h3,ul,p{
     height:12px ;
     margin-right: 10px;
 
-    fill: #757575;
+    fill: currentColor;
 }
 
 .phone-svg{
@@ -177,7 +179,7 @@ h1,h2,h3,ul,p{
     height:16px ;
     margin-right: 10px;
 
-    fill: #757575;
+    fill: currentColor;
 }
 
 .hover-mail:hover,
@@ -185,7 +187,7 @@ h1,h2,h3,ul,p{
 .hover-contact:hover,
 .hover-contact:focus
 {
-    fill: var(--accent-color);
+    color: var(--accent-color);
 }
 
 
@@ -358,7 +360,7 @@ h1,h2,h3,ul,p{
    justify-content: space-evenly;
 }
 
-.what-do-list:last-child{
+.what-do-item:last-child{
     margin-right: 0;
 }
 
@@ -387,7 +389,7 @@ h1,h2,h3,ul,p{
     
 }
 
-.staff-list:last-child{
+.staff-item:last-child{
     margin-right: 0;
 }
 
@@ -440,7 +442,7 @@ h1,h2,h3,ul,p{
     
 }
 
-.icon-staff-list:last-child{
+.link-icon:last-child{
     margin-right: 0;
 }
 
@@ -470,16 +472,16 @@ h1,h2,h3,ul,p{
     background-color: var(--secondary-text-color);
      border-radius: 50%;
      border: none;
+
+     color: #AFB1B8;
 }
 
 
 
 .staff-a:hover,
-.staff-a:focus,
-.staff-icon:hover,
-.staff-icon:focus{
+.staff-a:focus{
     background-color: var(--accent-color);
-    fill: #FFFFFF;
+    color: #FFFFFF;
 }
 
 
@@ -518,7 +520,7 @@ h1,h2,h3,ul,p{
     
 }
 
-.clients-list:last-child{
+.clients-item:last-child{
     margin-right: 0;
 }
 
@@ -535,6 +537,8 @@ h1,h2,h3,ul,p{
     align-items: center;
     
     border: 1px solid #AFB1B8;
+
+    color: #AFB1B8;
     
 }
 
@@ -549,7 +553,7 @@ h1,h2,h3,ul,p{
 
 .clients-a:hover,
 .clients-a:focus{
-    fill: var(--accent-color);
+    color: var(--accent-color);
     border: 1px solid var(--accent-color);
 }
 
@@ -609,7 +613,7 @@ h1,h2,h3,ul,p{
     font-style: normal;
 }
 
-.footer-list:last-child{
+.footer-item:last-child{
     margin-bottom: 0;
 }
 
@@ -662,7 +666,7 @@ h1,h2,h3,ul,p{
 
 }
 
-.icon-footer-list:last-child {
+.link-icon-footer:last-child {
     margin-right: 0;
 }
 
@@ -683,6 +687,8 @@ h1,h2,h3,ul,p{
     background-color: rgba(255, 255, 255, 0.1);
     border-radius: 50%;
     border: none;
+
+    color: #FFF;
 }
 
 
@@ -772,7 +778,7 @@ h1,h2,h3,ul,p{
 }
 
 
-.portfolio-list:last-child{
+.portfolio-li:last-child{
     margin-right: 0;
 }
 
